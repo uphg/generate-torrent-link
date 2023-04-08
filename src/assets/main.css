@@ -1,0 +1,45 @@
+@import './base.css';
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem 2rem;
+
+  font-weight: normal;
+}
+
+
+.button {
+  border-radius: 8px;
+  border: 1px solid #e0e0e6;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button:hover {
+  color: #646cff;
+  border-color: #646cff;
+}
+.button:focus,
+.button:focus-visible {
+  outline: none;
+}
+.input {
+  width: 360px;
+  border-radius: 8px;
+  height: 40px;
+  border: 1px solid #e0e0e6;
+  padding: 0 12px;
+}
+
+.input:focus,
+.input:focus-visible {
+  outline: none;
+}
+
+.input:focus {
+  border-color: #646cff;
+}
